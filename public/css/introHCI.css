@@ -1,53 +1,131 @@
-/* applies to anything of class "example-class-selector" */
-.example-class-selector {
-	margin-top: 2em;
+
+.header {
+	background: #155D85;
+	border: 1px solid #979797;
+	overflow: hidden;
 }
 
-/* applies to any <p> descendants of an element of class "example-class-selector" */
-.example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	color: #CC00AA;
+.header #nav {
+  font-weight: 600;
+  height: inherit;
+  letter-spacing: 0.125em;
+  line-height: inherit;
+  position: absolute;
+  right: 1.5em;
+  display: inline;
 }
 
-.jumbotron {
+header #name {
+	font-family: Symbol;
+	font-size: 24px;
+	color: #FFFFFF;
+	text-shadow: 0 2px 4px #155D85;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#nav li {
+	font-family: Helvetica;
+	font-size: 12px;
+	color: #D8D8D8;
+	text-align: right;
+	display: inline-block;
+	margin-top: 20px;
+	vertical-align: middle;
+	margin-left: 25px;
+}
+
+.label h1 {
+	font-family: Sathu;
+	font-size: 64px;
+	color: #FFFFFF;
+	text-align: center;
+	text-shadow: 0 2px 4px rgba(0,0,0,0.50);
 	position: relative;
-	background: none;
 }
 
-.jumbotron:after {
-     content:"";
-     background: url("../images/lorempixel.jumbotron.jpeg");
-     opacity: 0.2;
-     top: 0;
-     left: 0;
-     bottom: 0;
-     right: 0;
-     position: absolute;
-     z-index: -1;	
+.label p {
+	opacity: 100%;
+	font-family: Sathu;
+	font-stretch: condensed;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	margin-bottom: 5px;
 }
 
-.jumbotron p {
-     color: #6e6e6e;
+section {
+	display: block;
 }
 
-.project a {
-     text-align: center;
+#banner {
+	background-image: url('../images/geisel.jpg');
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 650px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container*/
 }
 
-.project .details {
-     overflow: hidden;
+#banner .label {
+	opacity: 0.69;
+	background: #4298C6;
+	border: 1px solid #979797;
+	position: absolute;
+	left: 27%;
+	top: 40%;
+	display: inline-block;
+	width: 550px;
+	height: 200px;
 }
 
-.project .details .detailsImage {
-     width: 200px;
-     margin: 10px 10px 10px 0px;
-     float: left;
+#intro{
+	background-image: url('../images/intro.svg');
+	background-color: #cccccc; /* Used if the image is unavailable */
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	display: inline-block;
+	height: 280px;
+	width: 1280px;
+	z-index: 10;
 }
 
-.row .thumbnail h4 {
-     text-align: left;
+ #intro header {
+	margin-top: 30px;
+	font-family: Sathu;
+	font-size: 24px;
+	color: #FFFFFF;
+	text-align: center;
+ }
+
+#intro p {
+	margin-top: 20px;
+	font-family: Sathu;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: center;
 }
 
-.likeCtr {
-     text-align: center;
+.projects header {
+	font-family: Sathu;
+	font-size: 24px;
+	color: #000000;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.projects {
+	height: 500px;
+}
+
+.projects div {
+		display: flex;
+}
+
+.projects img {
+	/* display: inline-block;
+	margin-left: auto;
+	margin-right: auto; */
+	flex: 33.33%;
+	margin-top: 30px;
 }

@@ -11,15 +11,16 @@
 
 	gtag('config', 'UA-158632125-1', { 'optimize_id': 'GTM-K7XDCCB'});
 	</script>
-	
-	<title>HCI Project Portfolio</title>
+
+	<title>Asha's Website</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="/css/introHCI.css" rel="stylesheet">
+	<link href="/css/section.css" rel="stylesheet">
 
-  	<script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="/js/introHCI.js"></script>
 
@@ -37,7 +38,52 @@
 </head>
 
 <body>
-	<div class="container">
+	<div class='header'>
+		<header>
+			<h1 id='name'><a href='/'>Asha Bacon</a></h1>
+			<nav id='nav'>
+				<ul>
+					<li id='section'>
+						<a href='/section'>SECTION A05</a>
+					</li>
+					<li id='experience'>
+						<a href='#experience'>EXPERIENCE</a>
+					</li>
+					<li id='about'>
+						<a href='#about'>ABOUT</a>
+					</li>
+					<li id='blog'>
+						<a href='#blog'>BLOG</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<section id='banner'>
+		<div class='label'>
+				<h1>ASHA BACON</h1>
+				<p>BS Cognitive Science w/ HCI Specialization</p>
+				<p>UC San Diego, Class of 2020</p>
+		</div>
+	</section>
+	<div id='intro'>
+		<header>BORN AND RAISED<br>IN PALO ALTO, CALIFORNIA</header><br>
+		<p>Today I am a senior at UC San Diego in La Jolla, San Diego.
+			I play on the UCSD  Women’s Club<br>Lacrosse team,
+			and I spend most of my time outside of school working on research and coding projects.<br>
+			I am driven by curiosity, and I love to learn and try new things.
+		</p>
+	</div>
+	<div class='projects'>
+		<header>RECENT PROJECTS</header><br>
+		<div>
+			<img src='/images/kestrel.svg'
+			height='300'>
+			<img src='images/bodyclock.svg'
+			height='300'>
+		</div>
+	</div>
+	<!-- <div class="container">
 		<div class="jumbotron">
 			<h1>Asha Bacon</h1>
 			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
@@ -70,7 +116,7 @@
 					</div>
 				</div>
 			{{/each}}
-		{{/if}}
+		{{/if}} -->
 
 
 </body>

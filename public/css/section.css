@@ -1,0 +1,67 @@
+
+
+#welcome {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#welcome h1 {
+  font-family: Helvetica;
+  font-size: 36px;
+  color: rgba(0,0,0,0.85);
+}
+
+
+.header {
+	background: #155D85;
+	border: 1px solid #979797;
+	overflow: hidden;
+}
+
+.header #nav {
+  font-weight: 600;
+  height: inherit;
+  letter-spacing: 0.125em;
+  line-height: inherit;
+  position: absolute;
+  right: 1.5em;
+  display: inline;
+}
+
+header #name {
+	font-family: Symbol;
+	font-size: 24px;
+	color: #95C6DD;
+	text-shadow: 0 2px 4px #155D85;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#nav li {
+	font-family: Helvetica;
+	font-size: 12px;
+	color: #D8D8D8;
+	text-align: right;
+	display: inline-block;
+	margin-top: 20px;
+	vertical-align: middle;
+	margin-left: 25px;
+}
+
+#message {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10%;
+}
+
+#message p {
+  width: 900px;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: rgba(0,0,0,0.85);
+  text-align: justify;
+  }
+
+#coursematerials {
+  margin-top: 30px;
+}
