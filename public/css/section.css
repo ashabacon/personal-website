@@ -52,6 +52,7 @@ header #name {
   display: inline-block;
   margin-top: 30px;
   margin-left: 10%;
+  margin-bottom: 30px;
 }
 
 #message p {
@@ -60,8 +61,32 @@ header #name {
   font-size: 16px;
   color: rgba(0,0,0,0.85);
   text-align: justify;
-  }
+}
+
+#message a {
+  color: #56A0C2;
+}
 
 #coursematerials {
   margin-top: 30px;
+}
+
+#week1 {
+  margin-left: 20px;
+  height: 200px;
+}
+
+#week1 h1 {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-family: Helvetica;
+    font-size: 26px;
+    color: rgba(0,0,0,0.85);
+    text-decoration: underline;
+}
+
+#week1 a {
+  font-size: 16px;
+  padding-left: 60px;
+  color: #56A0C2;
 }

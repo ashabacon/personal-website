@@ -44,6 +44,10 @@ header #name {
 	position: relative;
 }
 
+.label hr {
+	color: #FFFFFF;
+}
+
 .label p {
 	opacity: 100%;
 	font-family: Sathu;
@@ -72,8 +76,8 @@ section {
 	background: #4298C6;
 	border: 1px solid #979797;
 	position: absolute;
-	left: 27%;
-	top: 40%;
+	left: 28.5%;
+	top: 38%;
 	display: inline-block;
 	width: 550px;
 	height: 200px;
@@ -98,6 +102,10 @@ section {
 	text-align: center;
  }
 
+ #intro hr {
+	 color: #FFFFFF;
+ }
+
 #intro p {
 	margin-top: 20px;
 	font-family: Sathu;
@@ -114,6 +122,10 @@ section {
 	padding-top: 30px;
 }
 
+.projects hr {
+	color: solid #000000;
+}
+
 .projects {
 	height: 500px;
 }
@@ -128,4 +140,10 @@ section {
 	margin-right: auto; */
 	flex: 33.33%;
 	margin-top: 30px;
+}
+
+footer {
+	background: #155D85;
+	border: 1px solid #979797;
+	overflow: hidden;
 }
