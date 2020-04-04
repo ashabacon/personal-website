@@ -6,7 +6,7 @@
     <!-- Bootstrap -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
-    <!-- <link href="/css/introHCI.css" rel="stylesheet"> -->
+    <link href="/css/introHCI.css" rel="stylesheet">
     <link href="/css/section.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -14,27 +14,29 @@
   </head>
 
   <body>
-    <div class='header'>
-      <header>
-        <h1 id='name'><a href='/'>Asha Bacon</a></h1>
-        <nav id='nav'>
-          <ul>
-            <li id='section'>
-              <a href='/section'>SECTION A05</a>
-            </li>
-            <li id='experience'>
-              <a href='/experience'>EXPERIENCE</a>
-            </li>
-            <li id='about'>
-              <a href='/about'>ABOUT</a>
-            </li>
-            <li id='blog'>
-              <a href='/blog'>BLOG</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-    </div>
+    <header>
+			<h1 id='name'><a href='/'>Asha Bacon</a></h1>
+			<nav id='nav'>
+				<ul>
+					<li id='section'>
+						<a href='/section'>SECTION A05</a>
+					</li>
+					<li id='experience'>
+						<a href='#experience'>EXPERIENCE</a>
+						<div id='dropdown-content'>
+							<a href="work">WORK</a>
+							<a href="projects">PROJECTS</a>
+						</div>
+					</li>
+					<li id='about'>
+						<a href='#about'>ABOUT</a>
+					</li>
+					<li id='blog'>
+						<a href='#blog'>BLOG</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
     <p><a href="/">Back &raquo;</a></p>
     <section class="welcome">
       <div id="welcome">
