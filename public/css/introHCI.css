@@ -151,6 +151,13 @@ footer {
 	background: #155D85;
 	border: 1px solid #979797;
 	overflow: hidden;
+	text-align: center;
+}
+
+footer nav {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	letter-spacing: 4em;
 }
 
 #experience {
@@ -182,4 +189,17 @@ footer {
 .dropdown-content a:hover {
 	background-color: #ddd;
 	text-decoration: none;
+}
+
+.icons {
+	display: inline;
+	padding-left: 0;
+}
+
+.icons li {
+	display: inline-block;
+}
+
+.icons img {
+	height: 25px;
 }
